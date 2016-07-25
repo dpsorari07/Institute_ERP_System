@@ -1,0 +1,88 @@
+<html>
+<head>
+
+<style>
+
+.container
+{
+width:320px;
+clear:both;
+margin-left:30%;
+margin-top:5%;
+}
+
+.heading{
+margin-left:33%;
+margin-top:2%;
+
+}
+
+body fieldset
+{
+
+padding-right:50px;
+background-color: #ff8533;
+}
+body{
+background-color:#d9ff66;
+}
+</style>
+</head>
+<body >
+<div class="heading">
+<h3 color="gray"> IIIT KOTA</h3>
+</div>
+
+<div class="container" >
+
+<form  method="post" action="signup.php">
+
+<fieldset>
+Enter your details:
+</fieldset>
+<fieldset style="padding-left:50px " >
+<hr>
+ Full Name: 
+<input type="text" name="name" placeholder="fullname"/><br>
+User Id:
+<input type="text" name="userid" placeholder="username"/><br>
+
+Password:
+<input type="password" name="pass" placeholder="password"/><br>
+
+Age :
+<input type="text" name="age" placeholder="age in years"/>
+<br>
+Gender :
+<input type="text" name="gender" placeholder="male/female"/>
+<br>
+Aadhar No:
+<input type="text" name="idproof" placeholder=""/>
+<br>
+Address: 
+<input type="text" name="houseno" placeholder="House No"/>
+<input type="text" name="area" placeholder="Area"/>
+<input type="text" name="city" placeholder="city"/>
+<input type="text" name="pincode" placeholder="pincode"/>
+<input type="text" name="state" placeholder="state"/>
+
+<hr>
+<hr>
+Initial money to be deposited:
+<input type="text" name="amount" placeholder="amount in Rs"/>
+
+<hr>
+<button name="signup" type="submit" >SignUp</button>
+<br>
+
+</fieldset>
+
+<br><hr><br>
+<p>please send your queries to :<br><br></p>
+<address><i><a href="mailto : deepa.sorari7@gmail.com">Developer</a><br></i></address>
+</form>
+
+
+<div>
+</body>
+</html>
